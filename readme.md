@@ -1,4 +1,4 @@
-# _{Hand Tossed Pizzeria}_
+# _Hand Tossed Pizzeria_
 #### _{Lets users and customers order pizza.}, {November 4, 2016}_
 
 #### By _**{Taylor Loftis-Kim}**_
@@ -34,9 +34,11 @@ _{HTML, CSS, Bootstrap, JavaScript, jQuery.}_
 * _This will allow users to place orders for a custom pizza_
 * _Example Input: Medium_
 * _Example Output: Medium_
+
 * _It will allow users to also apply a topping to their pizza_
 * _Example Input: Pepperoni_
 * _Example Output: Pepperoni_
+
 * _The application will calculate the total cost of their pizza after the size and toppings have been selected_
 * _Example Input: Medium, Pepperoni_
 * _Example Output: $7_
