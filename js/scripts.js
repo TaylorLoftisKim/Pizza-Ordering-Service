@@ -6,10 +6,6 @@ function Pizza(size, sauce, meat, veggie, side) {
   this.veggiePrice = veggie;
   this.sidePrice = side;
 };
-Pizza.prototype.price = function() {
-  var pizzaDetails = this.pizzaSize + " pizza with" + this.pizzaToppings + " toppings"
-  return pizzaDetails;
-};
 Pizza.prototype.priceCalc = function()  {
   return this.sizePrice + this.saucePrice + this.meatPrice + this.veggiePrice + this.sidePrice;
 };
@@ -29,8 +25,11 @@ $(document).ready(function()  {
 
   var orderPrice = pizzaOrder.priceCalc();
 
-    $("#total").append(orderPrice);
-    $("#total").show();
+    $("#total-price").append(orderPrice);
+    $("#total-price").show();
+    $("#total-price").text();
+    $("#total-text").show();
+    $("#total-text").text();
 
   event.preventDefault();
   });
