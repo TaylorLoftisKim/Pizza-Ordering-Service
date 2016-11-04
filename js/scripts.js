@@ -6,9 +6,23 @@ function Pizza(size, topping, price) {
   this.pizzaPrice = 0;
 }
 
-Pizza.prototype.priceCalc = function() {
+Pizza.prototype.details = function() {
+  var orderDetails = this.pizzaSize + " pizza with" + this.pizzaToppings + " toppings"
+  return orderDetails;
+}
 
-
+Pizza.prototype.priceCalc = function()  {
+  var result = 0;
+  if (this.Size === "small")  {
+    return result = 4;
+  }else if (this.Size === "medium") {
+    return result = 6;
+  }else if (this.Size === "large") {
+    return result = 8;
+  }else if (this.Size === "xl") {
+    return result = 10;
+  }
+}
 
 
 
@@ -32,6 +46,9 @@ $(document).ready(function()  {
   thisPizza.baseAdd = baseAdd(thisSauce);
   thisPizza.baseAdd = baseAdd(thisTopping);
   thisPizza.priceCalc();
+
+  $("#total").show();
+  $("total").append(orderDetails);
 
   event.preventDefault
 
