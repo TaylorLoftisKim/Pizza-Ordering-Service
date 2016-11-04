@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+      <!-- Page Header -->
+    <title>Pizza Order</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="well">
+        <h1 id="head-text">Welcome to the Hand Tossed Pizzeria</h1>
+        <p id="p-header">
+          Where all we do is Hand Tossed pizza. Seriously like only that style.
+        </p>
+      </div>
+    </div>
+    <!-- Pizza Bases -->
+    <div class="row">
+      <div class="col-md-4 well form-group">
+        <h2 class="h2stacks">Choose your size:</h2>
+          <form>
+            <input id="base" type="radio" name="question1"
+            value="small">
+              <p>Small <br>(Feeds 1-2)</p>
+            <input id="base" type="radio" name="question1"
+            value="thin">
+              <p>Medium <br>(Feeds 2-3)</p>
+            <input id="base" type="radio" name="question1"
+            value="large">
+              <p>Large <br>(Feeds 3-4)</p>
+            <input id="base" type="radio" name="question1"
+              value="xl">
+              <p>XL Large <br>(Feeds 1 college student)</p>
+          </form>
+      </div>
+      <!-- Pizza Toppings -->
+      <div class="col-md-4 well">
+        <h2 class="h2stacks">Choose your topping:</h2>
+        <p id="p-toppings">
+          * You only get one so choose wisely
+        </p>
+          <form>
+            <input id="topping" type="radio" name="question1"
+              value="pepperoni">
+              <p>Pepperoni</p><br>
+            <input id="topping" type="radio" name="question1"
+                value="sausage">
+              <p>Sausage</p><br>
+            <input id="topping" type="radio" name="question1"
+                value="bacon">
+              <p>Bacon</p><br>
+            <input id="topping" type="radio" name="question1"
+                value="mushroom">
+              <p>Mushrooms</p><br>
+          </form>
+      </div>
+      <!-- Sides -->
+      <div class="col-md-4 well">
+        <h2 class="h2stacks">Choose your Sides:</h2>
+          <form>
+            <input id="side" type="radio" name="question1"
+              value="wings">
+              <p>Hot Wings</p><br>
+            <input id="side" type="radio" name="question1"
+                value="garlic">
+              <p>Garlic Bread</p><br>
+            <input id="side" type="radio" name="question1"
+                  value="soda">
+              <p>Soda</p><br>
+            <input id="side" type="radio" name="question1"
+                  value="salad">
+              <p>Salad</p><br>
+          </form>
+      </div><br>
+      <button class="btn" type="submit">Place Order</button>
+      <p id="p-footer">
+        * Copyright - Epicodus 2016 - Taylor Loftis-Kim
+      </p>
+    </div>
+
+
+  </body>
+</html>

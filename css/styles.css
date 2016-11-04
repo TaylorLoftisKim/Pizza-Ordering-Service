@@ -1,0 +1,39 @@
+body {
+  background-color: grey;
+}
+.well {
+  background-color: #a51212;
+}
+.well {
+  background-color: #a51212;
+}
+#head-text {
+  color: white;
+  text-align: center;
+}
+#p-header {
+  color: white;
+  text-align: center;
+  font-size: 8pt;
+}
+#p-footer {
+  text-align: center;
+  font-size: 10pt;
+}
+#p-toppings {
+  font-size: 8pt;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
+.jumbotron {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.btn {
+width:100px;
+margin-left:100px;
+margin-right:100px;
