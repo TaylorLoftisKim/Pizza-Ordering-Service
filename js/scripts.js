@@ -14,25 +14,25 @@ Pizza.prototype.priceCalc = function()  {
   var result = 0;
 
   if (this.Size === "small")  {
-    return result = 4;
+    return result += 4;
   } else if (this.Size === "medium") {
-    return result = 6;
+    return result += 6;
   } else if (this.Size === "large") {
-    return result = 8;
+    return result += 8;
   } else if (this.Size === "xl") {
-    return result = 10;
+    return result += 10;
   }
 
   if (this.Meat === "pepperoni") {
-    return result = 1;
+    return result += 1;
   } else if (this.Meat === "sausage") {
-    return result = 1;
+    return result += 1;
   } else if (this.Meat === "bacon") {
-    return result = 2;
+    return result += 2;
   } else if (this.Meat === "canadian")  {
-    return result = 2;
+    return result += 2;
   } else if (this.Meat === "none")  {
-    return result = 0;
+    return result += 2;
   }
 }
 
@@ -50,11 +50,11 @@ $(document).ready(function()  {
   var newVeggie = $('input:radio[name="veggie"]:checked').val();
   var newSide = $('input:radio[name="side"]:checked').val();
 
-  var thisSize = new Size(newSize);
-  var thisSauce = new Sauce(newSauce);
-  var thisMeat = new Meat(newMeat);
-  var thisVeggie = new Veggie(newVeggie);
-  var thisSide = new Side(newVeggie);
+  // var thisSize = new Size(newSize);
+  // var thisSauce = new Sauce(newSauce);
+  // var thisMeat = new Meat(newMeat);
+  // var thisVeggie = new Veggie(newVeggie);
+  // var thisSide = new Side(newVeggie);
 
   thisPizza.baseAdd = baseAdd(thisSize);
   thisPizza.baseAdd = baseAdd(thisSauce);
@@ -63,8 +63,8 @@ $(document).ready(function()  {
   thisPizza.baseAdd = baseAdd(thisSide)
   thisPizza.priceCalc();
 
-  $("#total").show();
   $("total").append(orderDetails);
+  $("#total").show();
 
   event.preventDefault
 

@@ -1,5 +1,6 @@
 body {
-  background-color: grey;
+  background-image: url("../img/pizza2.jpg");
+  image-resolution: from-image;
 }
 .well {
   background-color: #a51212;
