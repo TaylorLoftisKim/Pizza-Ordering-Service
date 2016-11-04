@@ -19,8 +19,8 @@
     </div>
     <!-- Pizza Bases -->
     <div class="row">
-      <div class="col-md-4 well form-group">
-        <h2 class="h2stacks">Choose your size:</h2>
+      <div class="col-sm-6 well form-group">
+        <h2>Choose your size:</h2>
           <form>
             <input id="base" type="radio" name="question1"
             value="small">
@@ -36,54 +36,104 @@
               <p>XL Large <br>(Feeds 1 college student)</p>
           </form>
       </div>
+      <!-- Pizza Sauce -->
+      <div class="col-sm-6 well">
+        <h2>Choose your Sauce:</h2>
+          <form>
+            <input id="sauce" type="radio"
+              value="marinara">
+              <p>Marinara</p><br>
+            <input id="sauce" type="radio"
+                value="alfredo">
+              <p>Alfrado</p><br>
+            <input id="sauce" type="radio"
+                value="bbq">
+              <p>BBQ</p><br>
+            <input id="sauce" type="radio"
+                value="pesto">
+              <p>Pesto</p><br>
+          </form>
+      </div>
+    </div>
       <!-- Pizza Toppings -->
-      <div class="col-md-4 well">
-        <h2 class="h2stacks">Choose your topping:</h2>
+    <div class="row">
+      <div class="col-sm-6 well">
+        <h2>Choose your Meat toppings:</h2>
         <p id="p-toppings">
           * You only get one so choose wisely
         </p>
           <form>
-            <input id="topping" type="radio" name="question1"
+            <input id="meat" type="radio"
               value="pepperoni">
               <p>Pepperoni</p><br>
-            <input id="topping" type="radio" name="question1"
+            <input id="meat" type="radio"
                 value="sausage">
               <p>Sausage</p><br>
-            <input id="topping" type="radio" name="question1"
+            <input id="meat" type="radio"
                 value="bacon">
               <p>Bacon</p><br>
-            <input id="topping" type="radio" name="question1"
+            <input id="meat" type="radio"
+                value="canadian">
+              <p>Canadian Bacon</p><br>
+            <input id="veggie" type="radio"
+                value="None">
+              <p>None</p><br>
+          </form>
+      </div>
+      <!-- Veggie Toppings -->
+      <div class="col-sm-6 well">
+        <h2>Choose your Veggie toppings:</h2>
+        <p id="p-toppings">
+          * You only get one so choose wisely
+        </p>
+          <form>
+            <input id="veggie" type="radio"
+              value="onion">
+              <p>Onion</p><br>
+            <input id="veggie" type="radio"
+                value="artichoke">
+              <p>Artichoke</p><br>
+            <input id="veggie" type="radio"
+                value="pineapple">
+              <p>Pineapple</p><br>
+            <input id="veggie" type="radio"
                 value="mushroom">
               <p>Mushrooms</p><br>
+            <input id="veggie" type="radio"
+                value="None">
+              <p>None</p><br>
           </form>
       </div>
+    </div>
       <!-- Sides -->
-      <div class="col-md-4 well">
-        <h2 class="h2stacks">Choose your Sides:</h2>
+    <div class="row">
+      <div class="col-sm-6 well">
+        <h2>Choose your Sides:</h2>
           <form>
-            <input id="side" type="radio" name="question1"
+            <input id="side" type="radio"
               value="wings">
-              <p>Hot Wings</p><br>
-            <input id="side" type="radio" name="question1"
+              <p>Hot Wings</p>
+            <input id="side" type="radio"
                 value="garlic">
-              <p>Garlic Bread</p><br>
-            <input id="side" type="radio" name="question1"
+              <p>Garlic Bread</p>
+            <input id="side" type="radio"
                   value="soda">
               <p>Soda</p><br>
-            <input id="side" type="radio" name="question1"
+            <input id="side" type="radio"
                   value="salad">
-              <p>Salad</p><br>
+              <p>Salad</p>
+            <input id="side" type="radio"
+                  value="none">
+              <p>none</p><br>
           </form>
-      </div><br>
-      <div class="col-md-12 well">
-        <h2>Order Review:</h2>
-          <button class="btn" type="submit">Get that in the oven!</button>
       </div>
-      <p id="p-footer">
-        * Copyright - Epicodus 2016 - Taylor Loftis-Kim
-      </p>
+      <!-- Order Review/Submit -->
+      <div class="col-sm-6 well">
+        <h2>Order Review:</h2><br>
+          <button class="btn" id="placeOrder"type="submit">Get that in the oven!</button><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
     </div>
-
-
+      <p id="p-footer">* Copyright - Epicodus 2016 - Taylor Loftis-Kim</p>
+    </div>
   </body>
 </html>
