@@ -30,17 +30,17 @@ _{HTML, CSS, Bootstrap, JavaScript, jQuery.}_
 
 ## Specification
 
-* _This will allow users to place orders for a custom pizza_
-* _Example Input: Medium_
-* _Example Output: Medium_
+* _This application allows users to select their pizza size, toppings, and/or sides to then be added in an order._
+  * _Example Input: Size, Sauce, Toppings_
+  * _Example Output: Large, Marinara, Pepperoni_
 
-* _It will allow users to also apply a topping to their pizza_
-* _Example Input: Pepperoni_
-* _Example Output: Pepperoni_
+* _Application will take the values(prices) from the chosen radio buttons and calculate it in an prototype._
+* _Example Input: Large, Marinara ($1), Pepperoni ($6)_
+* _Example Output: "Your total will be $..."_
 
-* _The application will calculate the total cost of their pizza after the size and toppings have been selected_
-* _Example Input: Medium, Pepperoni_
-* _Example Output: $7_
+* _Application will perform addition to build a total price for the user._
+  * _Example Input: Medium, Pepperoni_
+  * _Example Output: $7_
 
 ### License
 
