@@ -35,8 +35,8 @@ _{HTML, CSS, Bootstrap, JavaScript, jQuery.}_
   * _Example Output: Large, Marinara, Pepperoni_
 
 * _Application will take the values(prices) from the chosen radio buttons and calculate it in an prototype._
-* _Example Input: Large, Marinara ($1), Pepperoni ($6)_
-* _Example Output: "Your total will be $..."_
+  * _Example Input: Large, Marinara ($1), Pepperoni ($6)_
+  * _Example Output: "Your total will be $..."_
 
 * _Application will perform addition to build a total price for the user._
   * _Example Input: Medium, Pepperoni_
